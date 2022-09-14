@@ -14,7 +14,7 @@ int b = 0;
 void input();
 void calculation();
 void WayofCalc();
-void input();
+void isFunctionCorrect();
 
 void input() {
 	string choice;
@@ -47,6 +47,7 @@ void input() {
 		system("clear");
 		return input();
 	}
+
 }
 
 void calculation() {
@@ -63,5 +64,5 @@ int main() {
 	input();
 	calculation();
 
-	return 0;
+	return main();
 }
